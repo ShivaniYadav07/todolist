@@ -1,0 +1,85 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,700&family=Roboto+Mono:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;1,600&display=swap');
+
+nav {
+  background-color: rgb(129, 192, 244);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: auto;
+}
+.container{
+background-color: steelblue;
+width: 70%;
+margin: auto;
+min-height: 100vh;
+padding: 4vmax 8vmax;
+box-sizing: border-box;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+ textarea,
+ button {
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.379);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color:rgba(15, 157, 41, 0.967);
+  color: white;
+}
+.container > h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+}
+.task{
+display: flex;
+align-items: center;
+background-color: rgb(204, 242, 242);
+padding: 10px;
+border-radius: 5px;
+margin: 20px 0;
+}
+.task > div {
+  width: 100%;
+}
+.task > span{
+  color: rgba(0, 0, 0, 0.291);
+}
+.task > button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task > button:hover{
+background-color: rgb(61, 179, 122);
+}
+footer{
+  background-color: steelblue;
+width: 70%;
+margin: auto;
+/* min-height: 100vh; */
+padding: 4vmax 8vmax;
+box-sizing: border-box;
+text-align: center;
+}
